@@ -1,13 +1,6 @@
-// TODO: Include packages needed for this application //DONE
-
-// TODO: Create an array of questions for user input
-
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
-import Choices from 'inquirer/lib/objects/choices.js';
-
-
 
 const questions = [
     {
@@ -39,7 +32,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project.',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'none'],
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'None'],
     },
     {
         type: 'input',
@@ -63,8 +56,6 @@ const questions = [
     }
 ];
 
-
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, generateMarkdown(data), (err) =>
@@ -73,7 +64,6 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
@@ -84,6 +74,4 @@ function init() {
         });
 };
 
-
-// Function call to initialize app
 init();
