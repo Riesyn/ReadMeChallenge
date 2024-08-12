@@ -35,4 +35,4 @@ Creates custom README files based on user input.
 Please refer to installing package documentation via w3Schools. You will want to run NPM commands preferably with a DEV lock. The ideal way to contribute is to make a pull request inside of the github repo and wait for approval.
 
 ## Tests
-This Readme was started with the application! Also refer to link to video demonstrating the process. 
+This Readme was started with the application! Also refer to link to video demonstrating the process. https://drive.google.com/drive/folders/1rXN5p8x-t4xbhHULkGuzGrYYUPI7X9NM?usp=sharing

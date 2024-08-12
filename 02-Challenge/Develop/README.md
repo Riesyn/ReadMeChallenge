@@ -1,11 +1,11 @@
-# asd
+# sample
 
 
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-asd
+this is a sample
 
 ## Table of Contents
 
@@ -15,13 +15,13 @@ asd
 - [License](#license)
 
 ## Installation
-asd
+watch this vid
 
 ## Usage
-asd
+watch the vid pls
 
 ## Credits
-asd
+me, me , me 
 
 ## License
 MIT License
@@ -30,13 +30,13 @@ https://opensource.org/licenses/MIT
 MIT
 
 ## Features
-asd
+npm and node
 
 ## How to Contribute
-asd
+please add code via pull request
 
 ## Tests
-asd
+really, watch the video.
 
-## GitHub
-RIESYN :)
+## GitHub/Questions
+@ Riesyn
