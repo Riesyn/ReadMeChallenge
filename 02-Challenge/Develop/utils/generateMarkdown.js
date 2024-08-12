@@ -80,7 +80,10 @@ ${data.features}
 ${data.contributing}
 
 ## Tests
-${data.tests}`
+${data.tests}
+
+## GitHub/Questions
+${data.questions}`
 };
 
 export default generateMarkdown;
